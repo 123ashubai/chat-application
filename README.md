@@ -4,7 +4,7 @@ Any user can use their email id to chat and discuss about the current affairs. R
 
 
 
-frontend -dependencies:
+# frontend -dependencies:
 "dependencies": {
 
 "@emotion/react": "^11.10.5",
@@ -26,7 +26,7 @@ frontend -dependencies:
 
 
 
-Components used:
+ # Components used:
 Public Chat Functionality
 Sending Text Messages
 Sending Images
@@ -40,7 +40,7 @@ Feedback Contact Form
 
 
 
-hosted link
+# hosted link
 https://messenger-c4890.web.app/
  backend -dependencies:
 
@@ -57,7 +57,7 @@ https://messenger-c4890.web.app/
 "mongodb": "^5.2.0"
 }
 
-API-Endpoints:
+# API-Endpoints:
 Chats:
 GET /chat
 POST /chat
@@ -65,14 +65,14 @@ PUT /chat/:id
 DELETE /chat/:id
 
 
-Messages:
+# Messages:
 GET /chat/:id/messages
 POST /chat/:id/messages
 PUT /chat/:id/messages/:msgId
 DELETE /chat/:id/messages/:msgId
 
 
-Demo:
+# Demo:
 https://www.kapwing.com/videos/6372f2b0bfdfd30011d528df
 
 
